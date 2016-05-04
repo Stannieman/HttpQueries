@@ -119,7 +119,7 @@ namespace Stannieman.HttpQueries
         /// <summary>
         /// Removes a parameter with the given key from the query.
         /// </summary>
-        /// <param name="key"></param>
+        /// <param name="key">Key of the parameter to remove.</param>
         public void RemoveParameter(string key)
         {
             _params.Remove(key);
